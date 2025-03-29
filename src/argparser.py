@@ -323,6 +323,13 @@ Examples:
         default="csv",
         help="\t\t\tSet the format of output file of rocprof.",
     )
+    profile_group.add_argument(
+        "--gt",
+        action="store_true",
+        default=False,
+        required=False,
+        help=argparse.SUPPRESS,
+    )
 
     ## Roofline Command Line Options
     roofline_group.add_argument(

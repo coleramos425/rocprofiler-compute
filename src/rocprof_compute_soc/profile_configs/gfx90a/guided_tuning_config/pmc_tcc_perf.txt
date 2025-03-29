@@ -1,0 +1,11 @@
+pmc: GRBM_GUI_ACTIVE  SQ_WAVES
+
+pmc: TCC_REQ_sum                            TCC_HIT_sum                            TCC_MISS_sum
+pmc: TCC_EA_WRREQ_sum                       TCC_EA_WRREQ_64B_sum
+pmc: TCC_EA_RDREQ_sum                       TCC_EA_RDREQ_32B_sum
+pmc: TCC_EA_RDREQ_LEVEL_sum                 TCC_EA_WRREQ_LEVEL_sum
+
+
+gpu:
+kernel:
+range:
